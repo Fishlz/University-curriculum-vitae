@@ -1,0 +1,132 @@
+.page{
+    width: 800px;
+    height: 1100px;
+    /*background-color: #452;*/
+    box-shadow:1px 1px 5px rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left:-400px;
+    margin-top: 20px;
+}
+.page .basic_info{
+    width: 261px;
+    height: 100%;
+    background-color: #dcdddd;
+    float: left;
+}
+.page .basic_info .photo{
+    width: 100%;
+    height: 332px;
+    /*background-color: #23ff6f;*/
+    text-align: center;
+}
+.page .basic_info .photo img{
+    width: 140px;
+    margin-top: 60px ;
+    border:3px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.page .basic_info .photo>h2{
+    font-size: 30px;
+    margin-bottom:5px;
+}
+.page .basic_info .photo>p{
+    font-size: 16px;
+
+}
+.page .basic_info .information .info_a{
+    position: relative;
+    height: 261px;
+    /*background-color: #ff7122;*/
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+.page .basic_info .information .info_a img{
+    width: 257px;
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+.page .basic_info .information .info_a h2{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight:bold;
+    left: 40px;
+    top: 5px;
+}
+.page .basic_info .information .info_a>ul{
+    margin-left: 30px;
+
+}
+.page .basic_info .information .info_a>ul li{
+    font-size:15px;
+    margin-bottom: 8px;
+
+}
+.page .basic_info .information .info_a>ul li span{
+    font-size: 16px;
+    font-weight:bold;
+}
+.page .content{
+    float: right;
+    width: 539px;
+    height: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.page .content .para{
+    width: 470px;
+    display: inline-block;
+    font-size:14px;
+    margin-left:39px;
+    margin-top: 5px;
+    border-top:2px solid black;
+    padding-top:10px;
+    box-sizing: border-box;
+    /*实现两端对齐*/
+    line-height: 20px;
+    text-align:justify;
+    text-justify:inter-ideograph;
+}
+.page .content .para .para_all{
+    width: 100%;
+    height: 90px;
+    /*background-color: #74afff;*/
+}
+.page .content .para .para_all .para_left{
+    float: left;
+    /*background-color: #38ff50;*/
+    width: 73px;
+    height: 50px;
+}
+.page .content .para .para_all .para_right{
+    float: right;
+    /*background-color: #38ff50;*/
+    width: 365px;
+    height: 88px;
+
+}
+.page .content .login{
+    width: 200px;
+    height: 35px;
+    background-color: #fff;
+    margin:16px 0px 0px 39px;
+}
+.page .content .login>li{
+    float: left;
+    margin-right: 8px;
+}
+.page .content .login>li:nth-child(1) img{
+    width: 35px;
+
+}
+.page .content .login>li:nth-child(2){
+    font-size:20px;
+    font-weight:bold;
+    margin-top:2px;
+}
+

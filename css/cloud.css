@@ -1,0 +1,60 @@
+.cloud{
+    height: 1132px;
+    background-color: skyblue;
+    margin-top:0px;
+    animation:change 5s linear 0s infinite alternate;
+    position: relative;
+    overflow: hidden;
+}
+.cloud li{
+    width: 400%;
+    height: 100%;
+    position: absolute;
+    list-style:none;
+
+}
+.cloud li:nth-child(1){
+    background-image: url("../image/cloud_one.png");
+    animation: one 30s linear 0s infinite alternate;
+}
+.cloud li:nth-child(2){
+    background-image: url("../image/cloud_two.png");
+    animation: two 30s linear 0s infinite alternate;
+}
+.cloud li:nth-child(e){
+    background-image: url("../image/cloud_three.png");
+    animation: three 30s linear 0s infinite alternate;
+}
+
+@keyframes change{
+    from{
+        background-color: skyblue;
+    }
+    to{
+        background-color: black;
+    }
+}
+@keyframes one{
+    from{
+        margin-left:0;
+    }
+    to{
+        margin-left:-100%;
+    }
+}
+@keyframes two{
+    from{
+        margin-left:0;
+    }
+    to{
+        margin-left:-200%;
+    }
+}
+@keyframes three{
+    from{
+        margin-left:0;
+    }
+    to{
+        margin-left:-300%;
+    }
+}
